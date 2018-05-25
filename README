@@ -1,0 +1,32 @@
+****
+The project created to analyse hryvna-dollar exchange rates over the past ten
+years, CPI indexes in the US and Ukraine and differences between the real and
+nominal exchange rates
+****
+
+ PACKAGES:
+
+    adt - includes abstract data types to analyse, visualize and collect
+    information
+
+    exchangerates - includes folders with nominal and real exchange rates data
+    over the past ten years; modules to save and proceed data about
+    exchangerates
+
+    inflation - includes folders with CPI data in the Ukraine and USA and
+    over the past ten years; modules to save and proceed the data
+
+
+ MODULES:
+
+    cpi_example.py - visualization example of CPI data
+
+    exchange_and_inflation.py - the main example module, visualization of
+    exchange rate data
+
+    exchange_example.py - visualization example of exchange rate data
+
+    exchange_rates_distribution.py - visualization example of exchange rate
+    distribution data
+
+
