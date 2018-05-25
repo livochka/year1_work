@@ -62,7 +62,18 @@ class SaveExchangeYear(SaveInformationADT):
             # In case, when this page is not exist
             return None
         date = '-'.join(reversed(info['exchangedate'].split('.')))
-        print(date)
 
         return {date: info['rate']}
+
+
+if __name__ == '__main__':
+    for year in range(2008, 2014):
+        m = SaveExchangeYear(year)
+        m.generate()
+        m.save('rates/' + str(year) + '.txt')
+
+
+
+
+
 
